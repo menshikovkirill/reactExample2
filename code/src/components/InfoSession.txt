@@ -1,0 +1,14 @@
+import React from 'react';
+
+class SearchPlugin extends React.Component{
+	render(){
+		return(
+			<div>
+				<input placeholder = 'Текст темы, подсказки или комментария' />
+				<input placeholder= 'ID пользователя' />
+			</div>
+		);
+	}
+}
+
+export default SearchPlugin;
